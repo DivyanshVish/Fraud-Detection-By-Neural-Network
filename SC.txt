@@ -1,0 +1,51 @@
+Umbalanced      
+		            P	      R         F1
+LinearSVC on val:	   0.64      0.75      0.69
+Shallow_NN on val:   	   0.60      0.78      0.67
+GradientBoosting on val:   0.67      0.67      0.67
+RandomForest on val:       0.82      0.50      0.62
+LogisticRegression on val: 0.73      0.53      0.61 
+
+
+Balanced
+
+		            P	      R         F1
+Shallow_NN on val:   	   0.93      0.94      0.94 (For 2 Relu)
+LogisticRegression on val: 0.93      0.96      0.94
+LinearSVC on val:	   1.00      0.87      0.93
+Shallow_NN on val:   	   0.93      0.90      0.91 (For 1 Relu)
+GradientBoosting on val:   1.00      0.76      0.86
+RandomForest on val:       1.00      0.53      0.69 
+
+
+
+		 p	    R	     F1         SUPPORT
+
+LogisticRegression Model: 
+Not Fraud       0.96      0.93      0.94        72
+    Fraud       0.93      0.96      0.94        70
+
+Shallow_NN for 2 Relu:
+Not Fraud       0.94      0.93      0.94        72
+    Fraud       0.93      0.94      0.94        70
+
+Shallow_NN for 1 Relu:
+Not Fraud       0.91      0.93      0.92        72
+    Fraud       0.93      0.90      0.91        70
+
+RandomForest Model:
+Not Fraud       0.69      1.00      0.81        72
+    Fraud       1.00      0.53      0.69        70
+
+GradientBoosting Model:
+Not Fraud       0.81      1.00      0.89        72
+    Fraud       1.00      0.76      0.86        70
+
+LinearSVC Model:
+Not Fraud       0.89      1.00      0.94        72
+    Fraud       1.00      0.87      0.93        70
+
+
+TESTED NEURAL NETWORK
+Not Fraud       0.92      0.95      0.93        73
+    Fraud       0.94      0.91      0.93        69
