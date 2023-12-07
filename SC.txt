@@ -8,7 +8,6 @@ LogisticRegression on val: 0.73      0.53      0.61
 
 
 Balanced
-
 		            P	      R         F1
 Shallow_NN on val:   	   0.93      0.94      0.94 (For 2 Relu)
 LogisticRegression on val: 0.93      0.96      0.94
@@ -16,8 +15,6 @@ LinearSVC on val:	   1.00      0.87      0.93
 Shallow_NN on val:   	   0.93      0.90      0.91 (For 1 Relu)
 GradientBoosting on val:   1.00      0.76      0.86
 RandomForest on val:       1.00      0.53      0.69 
-
-
 
 		 p	    R	     F1         SUPPORT
 
@@ -45,6 +42,7 @@ LinearSVC Model:
 Not Fraud       0.89      1.00      0.94        72
     Fraud       1.00      0.87      0.93        70
 
+FINAL RESULT:
 
 TESTED NEURAL NETWORK
 Not Fraud       0.92      0.95      0.93        73
